@@ -1,0 +1,54 @@
+/* WORK */
+.section-work {
+    background-image: url(../img/fundo.svg);
+    color: var(--branco);
+    padding: var(--gap);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 33.33%);
+    align-items: center;
+    /* criando um contador */
+    counter-reset: workcounter;
+}
+
+.section-work div:nth-child(1){
+    grid-column: 1 / 4;
+    padding-left: var(--gap);
+}
+
+.section-work div h2 {
+    padding: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: var(--raleway);
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+}
+
+.section-work div {
+    padding: var(--gap);
+}
+
+.section-work div h3 {
+    padding-bottom: 0.9rem;
+    position: relative;
+    left: 19%;
+    padding-left: 0.3rem;
+}
+
+.section-work div h3::before {
+    font-size: 3rem;
+    counter-increment: workcounter;
+    content: counter(workcounter);
+    position: absolute;
+    font-style: italic;
+    top: -60%;
+    left: -18%;
+    font-family: var(--raleway);
+    transform: rotate(7deg);
+}
+
+.section-work div p {
+    max-width: 100%;
+}

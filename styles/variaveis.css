@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    /* fonts */
+    --roboto: 'Roboto', sans-serif;
+    --montserrat: 'montserrat', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+
+    /* colors */
+    --preto: #242424e9;
+    --marinho: #090559;
+    --marinho-hover: #090559b8;
+    --cinza: #b8b8b8e1;
+    --cinza-claro: #f3f3f3;
+    --verde-agua: #518673; 
+    --branco: #ffffff;
+
+    /* outhers */
+    --gap: 1.5rem;
+}
+
+html {
+    /* rolar a página ao clicar no menu */
+    scroll-behavior: smooth;
+}
+
+body { 
+    font-family: var(--roboto);
+    font-weight: 100;
+    font-size: 1rem;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.277);
+}
+
+
+
+
+

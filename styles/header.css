@@ -1,0 +1,57 @@
+/* CABECALHO */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-self: baseline;
+    background-color: var(--cinza-claro);
+    position: fixed;
+    width: 100%;
+    padding:  var(--gap);
+    border-bottom: 2px solid var(--cinza);
+    z-index: 1;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: var(--marinho);
+    font-size: 1.2rem;
+    font-family: var(--raleway);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 var(--gap);
+}
+
+/* MENU NAVEGAÇÃO */
+.menu {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--marinho);
+}
+
+/* criando a animação do menu */
+.menu a::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid var(--verde-agua);
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 25px;
+    transition: all 350ms ease 0.2s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.menu:nth-child(6) {
+    margin-right: 50px;
+}

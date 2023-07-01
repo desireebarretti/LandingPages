@@ -1,0 +1,66 @@
+/* TABELAS */
+.section-pricing {
+    min-height: calc(100vh - 70px);
+    background-color: var(--cinza-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: var(--gap);
+}
+
+.section-pricing div h2 {
+    text-transform: uppercase;
+    color: var(--marinho);
+    font-size: 2rem;
+    font-family: var(--raleway);
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    padding: 4rem 0 1rem 2rem;;
+}
+
+.section-pricing div p {
+    color: var(--preto);
+    font-size: 1.1rem;
+    padding: 0 var(--gap);
+    padding-bottom: var(--gap);
+    position: relative;
+    top: var(--gap);
+    line-height: 1.4;
+    text-align: center;
+    margin-right: 0;
+}
+
+.section-pricing caption {
+    margin-top: var(--gap);
+    text-align: start;
+    padding-bottom: 0.5rem;
+    color: var(--marinho);
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+table {
+    width: 70%;
+}
+
+.section-pricing thead tr th,
+.section-pricing tfoot {
+    background-color: var(--cinza);
+    color: var(--marinho);
+    padding: 0 var(--gap);
+    text-align: center;
+    padding: 5px;
+}
+
+.section-pricing tbody tr td {
+    text-align: start;
+    padding: 0.5rem;
+}
+
+
+.section-pricing tfoot td {
+    padding: 0.5rem;
+    text-align: right;
+    padding-right: 5.5rem;
+}
