@@ -1,3 +1,15 @@
 footer {
-    padding: 50px;
+    padding: 30px 0 0 25px;
+    text-align: center;
+    color: var(--preto);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+footer a:hover {
+    color: var(--marinho-hover);
+    font-weight: bold;
 }
