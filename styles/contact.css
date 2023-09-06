@@ -55,12 +55,18 @@ fieldset div label {
 }
 
 .form-group {
-    padding: 1.3rem;
+    padding: 1.5em;
+}
+
+.form-group input:focus {
+    box-shadow: 0 0 6px var(--cinza-claro);
+    outline: none;
+    border: none;
 }
 
 .form-group input,
 .form-group textarea {
-    padding: 0.3rem;
+    padding: 0.5rem;
     width: 100%;
 }
 
