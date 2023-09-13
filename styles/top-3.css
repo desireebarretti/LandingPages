@@ -54,3 +54,12 @@
 .section-grid div p {
     max-width: 100%;
 }
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 800px) {
+    .section-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}

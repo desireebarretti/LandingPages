@@ -33,3 +33,25 @@
     max-width: 32vw;
     padding: var(--gap);
 }
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 800px) {
+    .section-banner {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .section-banner div p {
+        line-height: 1.25;
+        padding: 0 var(--gap) ;
+        font-size: 1.2rem;
+        max-width: 70vw;
+        min-width: 50vw;
+    }
+
+    .section-banner div img {
+        max-width: 45vw;
+    }
+}

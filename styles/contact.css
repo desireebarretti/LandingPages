@@ -89,3 +89,12 @@ fieldset div label {
     opacity: 80%;
     cursor: pointer;
 }
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 800px) {
+    .section-contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
