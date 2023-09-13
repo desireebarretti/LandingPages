@@ -35,17 +35,19 @@
 .section-gallery div img:nth-child(3) {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
-
 }
 
 .section-gallery div img:nth-child(4) {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    margin-top: 8px;
 }
 
 .section-gallery div img:nth-child(5) {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    margin-top: 8px;
+
 }
 
 .section-gallery div img {
@@ -88,7 +90,6 @@
         grid-row: 4 / 5;
         margin-bottom: 100px;
         margin-top: 8px;
-    
     }
     
     .section-gallery div img:nth-child(5) {
